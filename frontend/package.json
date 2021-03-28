@@ -1,0 +1,67 @@
+{
+  "name": "licensepage_ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open --mode development",
+    "build": "vue-cli-service build --open --mode production",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.1",
+    "axios": "^0.19.2",
+    "vue-class-component": "^7.2.3",
+    "vue2-datepicker": "^3.6.0",
+    "v-calendar": "^1.0.8",
+    "vue-table-dynamic": "^0.2.6",
+    "vue-loading-overlay": "^3.3.2",
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "vue-svg-loader": "^0.16.0",
+    "crypto-js": "^4.0.0",
+    "jquery": "^3.4.1",
+    "@progress/kendo-datasource-vue-wrapper": "^2020.2.820",
+    "@progress/kendo-grid-vue-wrapper": "^2020.2.820",
+    "@progress/kendo-ui": "^2020.2.617",
+    "@progress/kendo-theme-default": "^4.21.0",
+    "vuex": "^3.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "vue-material": "^1.0.0-beta-15"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11",
+    "vue-sidebar-menu": "^4.6.1",
+    "vue-icon": "^2.1.2",
+    "v-tooltip": "^2.0.3",
+    "sass": "^1.23.7",
+    "sass-loader": "^8.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
